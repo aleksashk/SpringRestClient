@@ -20,7 +20,9 @@ public class App {
 //        Employee employee = communication.getEmployee(1);
 //        System.out.println(employee);
 
-        Employee employee = new Employee("Sveta", "Sokolova", "HR", 800);
+        Employee employee = new Employee("Sveta", "Sokolova", "IT", 1300);
+        employee.setId(8);
         communication.saveEmployee(employee);
+
     }
 }
